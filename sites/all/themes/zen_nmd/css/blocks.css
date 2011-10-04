@@ -1,0 +1,186 @@
+/*****************************************************************
+CSS Stylesheet  - blocks.css
+
+Website: NewMediaDenver.com
+Author: Brandt Reed
+E-mail: brandt@newmediadenver.com
+Created: 2011-05-18
+
+
+*****************************************************************/
+/*.not-front.page-node-305 #block-block-1 {background-color: #fff;padding-top: 15px;}
+.page-node-305 .sidebar #block-menu-block-1 {margin: 0;}*/
+/* -----------------------------------------------------------------------------------------
+>>> Twitter <<<
+------------------------------------------------------------------------------------------*/
+.tweet {
+font-family: 'IntervalSansProCondensedLight', Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  color: #e0e0e0; 
+  background-color: #000;
+  background: rgb(0, 0, 0); 
+background: rgba(0, 0, 0, 0.4);
+position: absolute;
+top:66px;
+left:0;
+width: 100%;
+  }
+  
+  .tweet a,.tweet .tweet_join {color: #55cef7;}
+.tweet .tweet_avatar {display: none;}
+ul.tweet_list {margin:0 auto;width: 960px;list-style: none;}
+ul.tweet_list li {background: url(../images/icon-twitter-update.png) no-repeat center left;padding: 18px 0 18px 62px;}
+
+
+
+/*
+
+#t0.active { background-position:-21px 0 !important; }
+#t0:hover  { background-position:-21px -180px; }
+#t0:active { background-position:-21px -270px; }
+*/
+
+
+h2.block-title {
+font-family: 'IntervalSansProCnSBd', Helvetica, Arial, sans-serif;
+font-size: 2.2em;
+color: #333;
+text-transform: uppercase;
+}
+
+/* -----------------------------------------------------------------------------------------
+>>> Client Login Status <<<
+------------------------------------------------------------------------------------------*/
+#header #block-block-14 {position: absolute;top:0;right:0;width: 200px;color: #f3f3f3;}
+#header #block-block-14 a {color: #e0e0e0;}
+
+
+/* -----------------------------------------------------------------------------------------
+>>> Section Title blocks<<<
+------------------------------------------------------------------------------------------*/
+
+#header .block {position: absolute;bottom:0;left:0;width: 900px;height: 36px;background:  url(../images/dot.png) no-repeat bottom left;}
+
+#header .section {
+position: relative;
+
+width: 960px;
+margin: 0 auto;
+height: 60px;}
+
+#header .section .block {}
+
+#header .section-title {
+color: #f3f3f3;
+font-family: 'IntervalSansProCondensedBold', Helvetica, Arial, sans-serif;
+font-size: 6em;
+text-transform: uppercase;
+text-shadow:1px 1px 5px #282828;
+line-height: .875em;
+position: absolute;
+bottom:-2px;
+left:15px;
+
+}
+
+#header .section-tagline {
+font-family: 'IntervalSansProCondensedLight', Helvetica, Arial, sans-serif;
+font-size: 1.6em;
+color: #e0e0e0;
+line-height: 1.0em;
+text-shadow:1px 1px 1px #282828;}
+
+
+
+/* -----------------------------------------------------------------------------------------
+>>> Featured Frontpage blocks<<<
+------------------------------------------------------------------------------------------*/
+#featured-blocks {overflow: auto;
+background: #000 url(../images/ruler.png) no-repeat bottom left;padding-bottom: 60px;
+margin-bottom: 20px;}
+#featured-blocks .block {float: left;width:255px;display: block;position: relative;}
+#featured-blocks h2{
+font-family: 'IntervalSansProCnMd', Helvetica, Arial, sans-serif;
+font-size: 1.9em;
+line-height: .9em;
+padding:0 0 3px;margin:0;
+text-transform: uppercase;
+color: #f3f3f3;
+}
+
+
+#featured-blocks #block-block-4 {padding-left: 40px;background: url(../images/ribbon-design.png) no-repeat top left;}
+#featured-blocks #block-block-5 {padding-left: 40px;margin-left:20px;margin-right:20px;background: url(../images/ribbon-web-dev.png) no-repeat top left;}
+#featured-blocks #block-block-6 {padding-left: 40px;background: url(../images/ribbon-seo.png) no-repeat top left;}
+
+
+#featured-blocks em {color: #2f94d8; font-style: normal;font-family: 'IntervalSansProCnSBd', Helvetica, Arial, sans-serif;font-size: 130%;text-shadow:1px 1px 1px #333;}
+#featured-blocks span {background-color: #e0e0e0;padding: 3px 15px;color: #333;display: inline-block;}
+#featured-blocks p {padding:0;margin: 0;}
+
+
+
+/* -----------------------------------------------------------------------------------------
+>>> Webform - Contact Form Header block (the easiest way to add a text header to the top of the form block)<<<
+------------------------------------------------------------------------------------------*/
+#block-block-1 {padding: 10px 15px 0;}
+#block-block-1 em {color: #99cc33; font-style: normal;font-family: 'IntervalSansProCnSBd', Helvetica, Arial, sans-serif;font-size: 1.8em;line-height: .6em;}
+#block-block-1 h3 {margin:0;padding:0;color: #666;font-size: 3.2em;line-height: .875em;font-family: 'IntervalSansProCondensedLight', Helvetica, Arial, sans-serif;}
+#block-block-1 span {font-family: 'IntervalSansProCnUltraLt', Helvetica, Arial, sans-serif;font-size: 1.4em;margin-bottom: 10px;display: block;}
+
+/*Subpage version sized down*/
+.not-front #block-block-1 {padding: 5px 15px 5px;margin-bottom: 0px;}
+.not-front #block-block-1 em {font-size: 1.6em;line-height: .6em;}
+.not-front #block-block-1 h3 {font-size: 2.4em;line-height: .875em;}
+.not-front #block-block-1 span {font-size: 1.2em;}
+
+/* -----------------------------------------------------------------------------------------
+>>> Frontpage main content area<<<
+------------------------------------------------------------------------------------------*/
+#block-block-6 h4 {color: #f3f3f3;}
+
+
+/* -----------------------------------------------------------------------------------------
+>>> Webform contact title block<<<
+------------------------------------------------------------------------------------------*/
+#block-block-1 .section-title {
+font-family: 'IntervalSansProCondensedBold', Helvetica, Arial, sans-serif;
+font-size: 5.0em;
+float:left;
+color: #f3f3f3;
+padding-left: 5px;
+text-shadow:1px 4px 5px #282828;
+}
+#block-block-1 .section-desc {position: absolute;top:50px;left:360px;color: #e0e0e0;}
+.sidebar .block {margin-bottom: 1.5em;padding: 10px;}
+.front .sidebar .block {margin-bottom: 2.5em;padding: 0px;}
+.sidebar .block-menu-block {padding: 0;}
+
+
+
+/* -----------------------------------------------------------------------------------------
+>>> Block - Frontpage Blog<<<
+------------------------------------------------------------------------------------------*/
+#block-views-blog-block-2 .views-row {width: 118px;float: left;padding: 10px;border: none;}
+#block-views-blog-block-2 .views-row-odd {margin-right: 20px;}
+#block-views-blog-block-2 h2 {font-size: 3.4em;}
+#block-views-blog-block-2 h3 {margin:0;padding:0;}
+#block-views-blog-block-2 h3 a {color: #e0e0e0;font-size: 0.9em;}
+
+/* -----------------------------------------------------------------------------------------
+>>> Credit Footer (not block) - Coded in template files<<<
+------------------------------------------------------------------------------------------*/
+
+#credit .left {float: left;width: 200px;padding-top: 15px;}
+#credit .right {float: right;width: 600px;text-align: right;line-height: 1.0em;}
+#credit .address {color: #999;font-weight: 200;}
+#credit .address strong {font-weight: bold;font-size: 1.1em;}
+#credit .phone {font-size: 2em;font-family: 'IntervalSansProCondensedBold', Helvetica, Arial, sans-serif;display: block;color: #f3f3f3;line-height: 1em;}
+#credit .copyright {font-size: .8em;display: block;color: #999;}
+#credit ul {margin: 0;padding:0;}
+#credit ul li {float: right;display: inline;}
+#credit .right a {color: #e0e0e0;border-bottom: 1px dotted #e0e0e0;font-size: .8em;}
+
+
+
+

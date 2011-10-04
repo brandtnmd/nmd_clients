@@ -1,0 +1,16 @@
+/*****************************************************************
+CSS Stylesheet  - ie7.css
+
+Website: NewMediaDenver.com
+Author: Brandt Reed
+E-mail: brandt@newmediadenver.com
+Created: 2011-05-18
+*****************************************************************/
+
+/*Fixes font crowding issue in IE7*/
+#block-block-1 h3 {margin-bottom: 18px;}
+
+/*Spacing issue with blog dates*/
+.view-blog .date .day {padding-bottom: 8px;}
+
+

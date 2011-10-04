@@ -1,0 +1,197 @@
+/*****************************************************************
+CSS Stylesheet  - forms.css
+
+Website: NewMediaDenver.com
+Author: Brandt Reed
+E-mail: brandt@newmediadenver.com
+Created: 2011-05-18
+*****************************************************************/
+#content #webform-client-form-5 .form-text,
+#content #webform-client-form-5 .form-textarea
+ {width: 500px;}
+  /* -----------------------------------------------------------------------------------------
+>>> MOLLOM / CAPTCHA<<<
+------------------------------------------------------------------------------------------*/
+ #recaptcha_table {background-color: #fff;}
+#recaptcha_area {width: 200px;}
+ /* -----------------------------------------------------------------------------------------
+>>> Webform - Frontpage General Contact Form (same form, but with different styles) <<<
+------------------------------------------------------------------------------------------*/
+.front .sidebar #block-webform-client-block-77  {background-color: #e0e0e0;padding: 5px 20px;width: 260px;s}
+.front .sidebar #block-webform-client-block-77 .form-text,
+.front .sidebar #block-webform-client-block-77 .form-textarea {
+width: 248px;
+background-color: #fff;
+}
+.front .sidebar #block-webform-client-block-77 #edit-submitted-product-service-of-interest {height: 80px;}
+ /* -----------------------------------------------------------------------------------------
+>>> Webform - Subpage General Contact Form (same form, but with different styles) <<<
+------------------------------------------------------------------------------------------*/
+.not-front .sidebar #block-webform-client-block-77  {padding: 5px 20px;width: 180px;}
+.not-front .sidebar #block-webform-client-block-77 .form-text
+ {
+width: 180px;
+background-color: #fff;
+}
+.not-front .sidebar #block-webform-client-block-77 .form-textarea {width: 190px;}
+.not-front .sidebar #block-webform-client-block-77 #edit-submitted-product-service-of-interest {height: 80px;}
+
+ /* -----------------------------------------------------------------------------------------
+>>> Webform - Contact Form Page <<<
+------------------------------------------------------------------------------------------*/
+#webform-client-form-77 .form-text{width: 350px;background-color: #fff;}
+#webform-client-form-77 .form-textarea{width: 360px;background-color: #fff;}
+
+
+ /* -----------------------------------------------------------------------------------------
+>>> Webform - SEO Evaluation Block <<<
+------------------------------------------------------------------------------------------*/
+#block-webform-client-block-304 {padding: 5px 20px;width: 180px;}
+#block-webform-client-block-304 .form-text {width: 180px;background-color: #fff;}
+#block-webform-client-block-304 .form-textarea {width: 190px;background-color: #fff;}
+
+
+
+/* -----------------------------------------------------------------------------------------
+>>> Webform <<<
+------------------------------------------------------------------------------------------*/
+#edit-submit {
+font-family: 'IntervalSansProCnRg', Helvetica, Arial, sans-serif;
+	background: #900000 url(../images/grad-red.png) repeat-x top left;
+	color: #f3f3f3;
+	padding: 4px 12px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	border-radius: 16px;
+	border: none;
+	text-transform: uppercase;
+	font-size: .875em;
+	text-shadow:1px 1px 6px #282828;
+}
+
+#edit-submit:hover {background: #020202 url(../images/grad-black.png) repeat-x top left;cursor: pointer;}
+
+
+.form-item .form-text, 
+.form-item .form-textarea
+{padding: 5px;border: 1px solid #999;font-size: 120%;}
+
+.form-item /* Wrapper for a form element (or group of form elements) and its label */ {
+  margin: .3em 0 ;
+}
+
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error /* Highlight the form elements that caused a form submission error */ {
+  border: 1px solid #c00;
+}
+
+.form-item label /* The label for a form element */ {
+  display: block;
+  font-weight: normal;
+}
+
+.form-item label.option /* The label for a radio button or checkbox */ {
+  display: inline;
+  font-weight: normal;
+}
+
+.form-required /* The part of the label that indicates a required field */ {
+  color: #c00;
+}
+
+.form-item .description /* The descriptive help text (separate from the label) */ {
+  font-size: 0.85em;
+}
+
+.form-checkboxes .form-item,
+.form-radios .form-item /* Pack groups of checkboxes and radio buttons closer together */ {
+  margin: 0; /* Drupal core uses "0.4em 0" */
+}
+
+.form-submit /* The submit button */ {
+}
+
+.container-inline div,
+.container-inline label /* Inline labels and form divs */ {
+  display: inline;
+}
+
+.tips /* Tips for Drupal's input formats */ {
+}
+
+
+/*
+ * Password confirmation
+ */
+.password-parent,
+.confirm-parent {
+  margin: 0;
+}
+
+
+/*
+ * Search (search-block-form.tpl.php)
+ */
+#block-search-form /* Wrapper for the search form */ {
+}
+
+
+/*
+ * Drupal's default login form block
+ */
+#user-login-form {
+  text-align: left; /* LTR */
+}
+
+
+/*
+ * OpenID
+ *
+ * The default styling for the OpenID login link seems to assume Garland's
+ * styling of list items.
+ */
+
+#user-login-form ul /* OpenID creates a new ul above the login form's links. */ {
+  margin-bottom: 0; /* Position OpenID's ul next to the rest of the links. */
+}
+
+html.js #user-login-form li.openid-link,
+#user-login-form li.openid-link /* The "Log in using OpenID" link. */ {
+  margin-top: 1.5em;
+  margin-left: -20px; /* LTR */ /* Un-do some of the padding on the ul list. */
+}
+
+#user-login-form li.user-link /* The "Cancel OpenID login" link. */ {
+  margin-top: 1.5em;
+}
+
+#user-login ul {
+  margin: 1.5em 0;
+}
+
+
+/*
+ * Drupal admin tables
+ *
+ * We overrode these styles in html-reset.css, but restore them for the admin
+ * section of the site.
+ */
+
+form th {
+  text-align: left; /* LTR */
+  padding-right: 1em; /* LTR */
+  border-bottom: 3px solid #ccc;
+}
+
+form tbody {
+  border-top: 1px solid #ccc;
+}
+
+form tr.even {
+  background-color: #fff;
+}
+
+form table .item-list ul {
+  margin: 0;
+}

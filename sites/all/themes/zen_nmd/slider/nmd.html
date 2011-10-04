@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<title>NMD</title>
+
+
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/anythingslider.css">
+	
+	<!-- JS -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	<script src="js/jquery.anythingslider.min.js"></script>
+	<script src="js/jquery.anythingslider.fx.min.js"></script>
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#nmd-slider')
+	.anythingSlider({
+		width               : 1700,
+		height              : 750,
+		startStopped        : true,
+		resizeContents      : false,
+		 buildArrows   : false,
+		theme: "metallic"
+	})
+	.anythingSliderFx({
+		// base FX definitions
+		// '.selector' : [ 'effect(s)', 'distance/size', 'time', 'easing' ] - 'time' and 'easing' are optional parameters
+		'.textSlide'       : [  'top', '500px', '800', 'easeOutElastic'  ]
+/*,
+
+		// for more precise control, use the "in" and "out" definitions
+		// in = the animation that occurs when you slide "in" to a panel
+		    inFx  : {
+		     '.textSlide h3'  : { opacity: 1, top  : 0, duration: 400, easing : 'easeOutBounce' },
+		     '.textSlide li'  : { opacity: 1, left : 0, duration: 400 },
+		     '.textSlide img' : { opacity: 1, duration: 400 },
+		     '.quoteSlide'    : { top : 0, duration: 400, easing : 'easeOutElastic' },
+		     '.expand'        : { width: '100%', top: '0%', left: '0%', duration: 400, easing : 'easeOutBounce' }
+		    },
+		// out = the animation that occurs when you slide "out" of a panel
+		// (it also occurs before the "in" animation)
+		     outFx : {
+		     '.textSlide h3'      : { opacity: 0, top  : '-100px', duration: 350 },
+		     '.textSlide li:odd'  : { opacity: 0, left : '-200px', duration: 350 },
+		     '.textSlide li:even' : { opacity: 0, left : '200px',  duration: 350 },
+		     '.textSlide img'     : { opacity: 0, duration: 350 },
+		     '.quoteSlide:first'  : { top : '-500px', duration: 350 },
+		     '.quoteSlide:last'   : { top : '500px', duration: 350 },
+		     '.expand'            : { width: '10%', top: '50%', left: '50%', duration: 350 },
+		    } */
+	});
+		});
+</script>
+</head>
+
+<body>
+
+
+
+   <!-- AnythingSlider #2 -->
+   <ul id="nmd-slider">
+    <li class="panel1" style="background: url(../images/panel-design.jpg) top left no-repeat;">
+     <div class="textSlide">
+     Design
+     
+     </div>
+    </li>
+    <li class="panel2" style="background: url(../images/panel-drupal.jpg) top left no-repeat;">
+     <div class="textSlide">
+      Drupal
+      
+      
+      
+     </div>
+    </li>
+        <li class="panel3" style="background: url(../images/panel-seo.jpg) top left no-repeat;">
+     <div class="textSlide">
+      SEO
+      
+      
+      
+     </div>
+    </li>
+       </ul>
+   <!-- END AnythingSlider #2 -->
+
+</body>
+
+</html>

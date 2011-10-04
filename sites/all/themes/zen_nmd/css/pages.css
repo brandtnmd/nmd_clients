@@ -1,0 +1,189 @@
+/*****************************************************************
+CSS Stylesheet  - pages.css
+
+Website: NewMediaDenver.com
+Author: Brandt Reed
+E-mail: brandt@newmediadenver.com
+Created: 2011-05-18
+*****************************************************************/
+
+#admin-menu {top: -20px;}
+
+/* -----------------------------------------------------------------------------------------
+>>> Front <<<
+------------------------------------------------------------------------------------------*/
+#block-block-3 {background-color: #202020;padding: 20px;}
+
+/* -----------------------------------------------------------------------------------------
+>>> CLIENT SECTION<<<
+------------------------------------------------------------------------------------------*/
+/*Hide header because there is no header for this area*/
+body.section-client #header {display:none;}
+
+
+
+
+
+
+/* -----------------------------------------------------------------------------------------
+>>> Social Icon Bar <<<
+------------------------------------------------------------------------------------------*/
+ul.social {list-style: none;margin:0;padding:0;z-index: 200;padding: 5px;position: fixed;top:216px;right:0;}
+/*.front ul.social {position: absolute;top:640px;right:0;}*/
+
+@media screen and (max-width: 1024px) {ul.social{display:none;}}
+
+/* -----------------------------------------------------------------------------------------
+>>> H1 Keywords<<<
+------------------------------------------------------------------------------------------*/
+.nmdkeywords {
+float: right;
+font-family: Helvetica;
+position:absolute;
+bottom:-50px;
+right:0;
+background-color:#000;
+background: rgb(0, 0, 0); /* The Fallback */
+background: rgba(0, 0, 0, 0.2);
+color:#999;
+padding:5px;
+font-size: 0.7em;
+border: none;
+font-weight: normal;
+/*-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg);	
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
+background-color: #282828;
+}
+
+
+
+
+/* -----------------------------------------------------------------------------------------
+>>> Page - Maintenance <<<
+------------------------------------------------------------------------------------------*/
+body.maintenance-page {margin-top: 100px;}
+body.maintenance-page #content {min-height:200;}
+
+/* -----------------------------------------------------------------------------------------
+>>> Page - Shadowbox Styles<<<
+------------------------------------------------------------------------------------------*/
+#sb-wrapper-inner {border:10px solid #f3f3f3;}
+#sb-title, #sb-title-inner{background-color: #f3f3f3;padding: 10px;font-size: 1.2em;color: #333;}
+#sb-info {}
+
+
+
+
+
+
+
+#logo /* Wrapping link for logo */ {
+  float: left; /* LTR */
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.region-header /* Wrapper for any blocks placed in the header region */ {
+  clear: both; /* Clear the logo */
+}
+
+/*
+ * Main (container for everything else)
+ */
+#main-wrapper {
+}
+
+#main {
+}
+
+/*
+ * Content
+ */
+#content {
+}
+
+#content .section {
+}
+
+.region-highlighted {
+}
+
+.breadcrumb /* The path to the current page in the form of a list of links */ {
+  padding-bottom: 0; /* Undo system.css */
+}
+
+h1.title, /* The title of the page */
+h2.node-title, /* Title of a piece of content when it is given in a list of content */
+h2.block-title, /* Block title */
+h2.title, /* Comment section heading */
+h2.comment-form, /* Comment form heading */
+h3.title /* Comment title */ {
+  margin: 0;
+}
+
+h1.title {margin-bottom: 15px;}
+
+tr.even /* Some tables have rows marked even or odd. */ {
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+tr.odd {
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+div.messages /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */ {
+  margin: 1.5em 0; /* Drupal core uses "6px 0" margin */
+}
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------------------------
+>>> Page - Work Details<<<
+------------------------------------------------------------------------------------------*/
+.node-type-work .field-name-field-work-feat-screen img {border: 9px solid #fff;outline: 1px solid #e0e0e0;}
+
+
+.node-type-work ul.work-bar  {outline: 1px solid #e0e0e0;margin:0 0 20px 0;list-style: none;background-color: #202020;padding: 15px ;overflow: hidden;text-align: right;margin-top: 5px;}
+.node-type-work .work-bar ul li {float:right;}
+.node-type-work .work-bar a.btn-light {padding: 6px 12px;border-radius: 0;}
+.node-type-work em {color: #999;margin-bottom: 5px;display: block;}
+.node-type-work .work-col-left {float: left;width: 305px;margin-right: 20px;min-height: 350px;border-right: 1px solid #e0e0e0;padding-right: 10px;}
+.node-type-work .work-col-right {float: left;width: 330px;min-height: 350px;}
+.node-type-work .work-col-right h2 {margin:0;padding:0;}
+.node-type-work .field-name-field-work-gallery {}
+.node-type-work .field-name-field-work-gallery .field-item {float:left;padding: 0 20px 10px 0;}
+.node-type-work .field-name-field-work-gallery img {border: 2px solid #fff; outline: 1px solid #e0e0e0;}
+
+
+
+
+/* -----------------------------------------------------------------------------------------
+>>> Toolbox AddThis <<<
+------------------------------------------------------------------------------------------*/
+.addthis_toolbox {margin:30px 0 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

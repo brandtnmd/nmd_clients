@@ -1,0 +1,223 @@
+/*****************************************************************
+CSS Stylesheet  - layout.css
+
+Website: NewMediaDenver.com
+Author: Brandt Reed
+E-mail: brandt@newmediadenver.com
+Created: 2011-05-18
+*****************************************************************/
+
+
+/* -----------------------------------------------------------------------------------------
+>>> BACKGROUNDS <<<
+------------------------------------------------------------------------------------------*/
+body {
+background-color: #000;
+}
+body.not-front,
+body.maintenance-page
+{background: #000 url(../images/bg-rays.png) no-repeat top center;}
+body.imce {background-color: #f3f3f3;}
+
+#page-wrapper {}
+
+#page {
+background: rgb(20, 72, 90); /* The Fallback */
+background: rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0 0 5px #306171;
+-webkit-box-shadow: 0 0 5px #306171;
+box-shadow: 0 0 5px #306171;
+
+}
+.front #page {background: transparent;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+
+}
+
+
+#main {background-color: #e1ddd1;}
+.front #main {background:transparent;/*border: 1px solid #666;*/}
+
+.region-footer {
+}
+
+#content {background-color: #f3f3f3;}
+.front #content {background: transparent;}
+
+
+/* -----------------------------------------------------------------------------------------
+>>> LAYOUT CONTAINERS <<<
+------------------------------------------------------------------------------------------*/
+body {
+margin:0;padding:0;
+}
+
+#page-wrapper,
+.region-bottom {
+  /*
+   * If you want to make the page a fixed width and centered in the viewport,
+   * this is the standards-compliant way to do that. See also the ie6.css file
+   * for the necessary IE5/IE6quirks hack to center a div.
+   */
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+
+}
+
+.front #page-wrapper {margin-top: -310px;}
+#page {padding: 10px;}
+
+.logo {
+position: absolute;
+top:16px;
+left:0;
+}
+
+
+.not-front #content {min-height: 1200px;}
+
+
+/*
+ * Content
+ */
+#content,
+.no-sidebars #content {
+  float: left; /* LTR */
+  width: 940px;
+  margin-left: 0; /* LTR */
+  margin-right: -940px; /* LTR */ /* Negative value of #content's width + left margin. */
+  padding: 0; /* DO NOT CHANGE. Add padding or margin to #content .section. */
+}
+
+.sidebar-first #content {
+  width: 710px;
+  margin-left: 230px; /* LTR */ /* The width of .region-sidebar-first. */
+  margin-right: -940px; /* LTR */ /* Negative value of #content's width + left margin. */
+}
+
+.sidebar-second #content {
+  width: 710px;
+  margin-left: 0; /* LTR */
+  margin-right: -710px; /* LTR */ /* Negative value of #content's width + left margin. */
+}
+
+.front #content {
+  width: 640px;
+  margin-left: 0; /* LTR */
+  margin-right: -640px; /* LTR */ /* Negative value of #content's width + left margin. */
+}
+
+.two-sidebars #content {
+  width: 490px;
+  margin-left: 230px; /* LTR */ /* The width of .region-sidebar-first */
+  margin-right: -710px; /* LTR */ /* Negative value of #content's width + left margin. */
+}
+
+#content .section {
+  margin: 0;
+  padding: 20px;
+}
+.front #content .section {padding: 0 40px 0 0;}
+
+/*
+ * First sidebar
+ */
+.region-sidebar-first {
+  float: left; /* LTR */
+  width: 230px;
+  margin-left: 0; /* LTR */
+  margin-right: -230px; /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
+  padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-first .section. */
+
+}
+
+.region-sidebar-first .section {
+  margin: 0 20px 0 0; /* LTR */
+  padding: 0;
+  
+}
+
+/*
+ * Second sidebar
+ */
+.region-sidebar-second {
+  float: left; /* LTR */
+  width: 230px;
+  margin-left: 710px; /* LTR */ /* Width of content + sidebar-first. */
+  margin-right: -940px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
+  padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
+}
+
+.front .region-sidebar-second {
+  float: left; /* LTR */
+  width: 300px;
+  margin-left: 640px; /* LTR */ /* Width of content + sidebar-first. */
+  margin-right: -940px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
+  padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
+}
+
+.region-sidebar-second .section {
+  margin: 0;
+  padding: 0;
+}
+
+.front .region-sidebar-second .section {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/*
+ * Content Bottom
+ */
+ #content-bottom {position:relative;background: url(../images/bg-rays-frontpage.png) no-repeat top center;margin-top: 0px;padding-bottom: 50px;}
+#content-bottom .section {width:940px;margin: 0 auto;padding: 130px 0 0;}
+
+
+/*
+ * Credit Footer Bar
+ */
+ #credit {margin: 40px 0;background-color: #0c0c0c;}
+#credit .section {width:940px;margin: 0 auto;padding: 10px 0;}
+
+
+
+/*
+ * Prevent overflowing content
+ */
+#header,
+#content,
+#navigation,
+.region-sidebar-first,
+.region-sidebar-second,
+.region-footer,
+.region-bottom {
+  overflow: visible;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+/*
+ * If a div.clearfix doesn't have any content after it and its bottom edge
+ * touches the bottom of the viewport, Firefox and Safari will mistakenly
+ * place several pixels worth of space between the bottom of the div and the
+ * bottom of the viewport. Uncomment this CSS property to fix this.
+ * Note: with some over-large content, this property might cause scrollbars
+ * to appear on the #page-wrapper div.
+ */
+/*
+#page-wrapper {
+  overflow-y: hidden;
+}
+*/
+
+
+
+
+
+.front .region-sidebar-second {background-color: #fff;padding: 10px;
+
+background-color: #e0e0e0;
+}

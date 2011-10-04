@@ -1,0 +1,197 @@
+/*****************************************************************
+CSS Stylesheet  - views.css
+
+Website: NewMediaDenver.com
+Author: Brandt Reed
+E-mail: brandt@newmediadenver.com
+Created: 2011-05-18
+*****************************************************************/
+/* -----------------------------------------------------------------------------------------
+>>> GLOBAL<<<
+------------------------------------------------------------------------------------------*/
+.view-content {overflow: hidden;}
+.views-row {position: relative;}
+/* -----------------------------------------------------------------------------------------
+>>> VIEW - WORK INDEX<<<
+------------------------------------------------------------------------------------------*/
+.view-work {margin-top: 20px;}
+.view-work .views-row {
+border: 9px solid #fff;
+/*outline: 1px solid #e0e0e0;*/
+margin: 20px 0;
+position: relative;
+overflow: hidden;
+-moz-box-shadow: 0 0 5px #ccc;
+-webkit-box-shadow: 0 0 5px#ccc;
+box-shadow: 0 0 5px #ccc;
+}
+
+.view-work .views-row .project-info {
+width: 100%;
+background-color: #333;
+color: #f3f3f3;
+position: absolute;
+bottom: 0;
+left: 0;
+background: rgb(0, 0, 0); /* The Fallback */
+background: rgba(0, 0, 0, 0.8);
+}
+
+.view-work .views-row:hover {
+-moz-box-shadow: 0 0 8px #999;
+-webkit-box-shadow: 0 0 8px#999;
+box-shadow: 0 0 8px #999;
+}
+
+
+.view-work .views-row .project-info h2 {padding-bottom: 5px;margin: 0;}
+.view-work .views-row .project-info h3 {margin:0;padding:15px 15px 5px;}
+.view-work .views-row .project-info span {display: block;line-height: 1.1em;padding: 0px 15px 5px;}
+.view-work .views-row .project-info .btn-light {display: inline-block;margin: 5px 15px 15px;}
+
+/*Past Projects have slightly different layout*/
+.view-work-past-projects  .views-row {width: 306px;float: left;margin-bottom: 0;}
+.view-work-past-projects .views-row-odd {margin-right: 20px;}
+
+
+
+
+/* -----------------------------------------------------------------------------------------
+>>> VIEW - FRONTPAGE FEATURED WORK SLIDESHOW<<<
+------------------------------------------------------------------------------------------*/
+#block-views-work-block-1 {padding: 0;position: relative;margin-top: 30px;}
+#block-views-work-block-1 h2 {
+font-family: 'IntervalSansProCondensedBold', Helvetica, Arial, sans-serif;
+font-size: 4em;
+color: #f3f3f3;
+text-shadow:1px 1px 3px #282828;
+}
+#block-views-work-block-1 h3 {padding: 0;margin: 15px 0 0 15px;}
+#block-views-work-block-1 span {color: #ccc;font-size: 1.0em;}
+
+#views_slideshow_controls_text_work-block_1 .views-slideshow-controls-text-previous {
+display: block;
+background: url(../images/arrow-left.png) no-repeat top left;
+width:49px;
+height: 96px;
+text-indent: -9999px;
+font-size: 0;
+position: absolute;
+bottom:50px;
+left:-42px;
+cursor: pointer;}
+
+#views_slideshow_controls_text_work-block_1 .views-slideshow-controls-text-next {
+display: block;
+background: url(../images/arrow-right.png) no-repeat top left;
+width:49px;
+height: 96px;
+text-indent: -9999px;
+font-size: 0;
+position: absolute;
+bottom:50px;
+right:-42px;
+cursor: pointer;}
+
+#views_slideshow_controls_text_work-block_1 .views-slideshow-controls-text-pause {display: none;}
+
+
+
+
+
+/* -----------------------------------------------------------------------------------------
+>>> VIEW - BLOG<<<
+------------------------------------------------------------------------------------------*/
+
+/*Blog Index*/
+.view-blog {margin: 20px 0;}
+.view-blog .views-row {overflow:hidden;border-bottom: 1px dotted #ccc;padding: 20px 0;}
+.view-blog h2 {margin:0;padding:0;}
+.view-blog .views-field-field-blog-tmb {float: left;width: 140px;margin-right: 10px;}
+
+.view-blog .views-field-field-blog-tmb {position: relative;}
+.view-blog .date {background-color: #666;
+position: absolute;
+top:0;
+right:0;
+padding: 5px 15px;
+color: #f3f3f3;
+background: rgb(0, 0, 0); /* The Fallback */
+background: rgba(0, 0, 0, 0.8);
+}
+
+/*Date Styling*/
+.view-blog .date span {display: block;text-align: center;width: 100%;}
+.view-blog .date .month {font-family: 'IntervalSansProCnSBd', Helvetica, Arial, sans-serif;text-transform: uppercase;font-size: 1.2em;}
+.view-blog .date .day {font-family: 'IntervalSansProCondensedBold', Helvetica, Arial, sans-serif;font-size: 2.4em;padding-bottom: 2px;}
+.view-blog .date .year {font-family: 'IntervalSansProCondensedLight', Helvetica, Arial, sans-serif;font-size: 1.2em;}
+
+/*Blog Block*/
+#block-views-blog-block-1 .view-blog .views-row {padding:0;width: 130px;float: left;border: none;margin-bottom: 20px;}
+#block-views-blog-block-1 .view-blog .views-row img {-moz-border-radius: 15px;-webkit-border-radius: 15px;border-radius: 15px;}
+#block-views-blog-block-1 .view-blog .views-row .views-field-body {font-size: .8em;}
+#block-views-blog-block-1 .view-blog .views-row-odd {margin-right: 34px;}
+
+
+
+
+
+/* -----------------------------------------------------------------------------------------
+>>> VIEW - FAQ INDEX<<<
+------------------------------------------------------------------------------------------*/
+.view-faqs h2 {background-color: #efefef;padding: 6px 5px;cursor: pointer;border: 1px solid #e0e0e0;font-size: 1.1em;color: #666;}
+.view-faqs h3 {color: #990000;font-size: 2em;margin:20px 0 10px;padding:0;}
+.view-faqs .views-field-body {background-color: #fff;padding: 10px;}
+
+.view-faqs h2:hover {background-color: #fff;}
+
+/* -----------------------------------------------------------------------------------------
+>>> VIEW - TESTIMONIALS PAGE<<<
+------------------------------------------------------------------------------------------*/
+.view-testimonials .views-row {margin: 20px 0;background: #fff url(../images/quotes.png) no-repeat top left;padding: 20px;border:1px solid #efefef;}
+.view-testimonials .views-field-body {font-size:1.2em;padding: 0 30px;font-size: 0.9em;}
+.view-testimonials em {font-size:1.0em;color: #999;padding-left: 30px;}
+.view-testimonials em:before {content: "by ";}
+.view-testimonials .views-field-field-work-ref {padding-left: 30px;}
+
+/*Block version*/
+.view-testimonials.view-display-id-block_1 .views-row {background: none;background-color: #efefef;font-style: italic;margin: 5px 10px;padding: 15px;-moz-border-radius: 15px;-webkit-border-radius: 15px;border-radius: 15px;}
+.view-testimonials.view-display-id-block_1 .views-field-body {padding-left: 0;color: #666;font-size: 0.9em;}
+.view-testimonials.view-display-id-block_1 em {padding-left: 0;font-size: 0.8em;line-height: 0.8em;}
+#block-views-testimonials-block-1 h2 {font-size: 1.1em;color: #666;font-weight: normal;margin: 0 0 0 10px;}
+/* -----------------------------------------------------------------------------------------
+>>> VIEW - STAFF<<<
+------------------------------------------------------------------------------------------*/
+.view-staff img {float: left;}
+.view-staff .views-row {overflow: auto;margin-bottom: 10px;background-color: #fff;padding: 5px;border: 1px solid #efefef;}
+
+.view-staff .views-field-title,
+.view-staff .views-field-field-staff-job-title,
+.view-staff .views-field-body
+{margin-left: 160px;}
+.view-staff .views-field-field-staff-job-title {color: #666;}
+
+/* -----------------------------------------------------------------------------------------
+>>> VIEW - PROFILE<<<
+------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/* -----------------------------------------------------------------------------------------
+>>> VIEW - CLIENT DASHBOARD <<<
+------------------------------------------------------------------------------------------*/
+#webform-client-form-215 fieldset {float: left;border: none;}
+#webform-client-form-215 fieldset legend {display: none;}
+#webform-client-form-215 #webform-component-fieldset-contact-information {width:310px;}
+#webform-client-form-215 #webform-component-fieldset-questions {width:300px;}
+#webform-client-form-215 input {width: 260px;}
+
+/*Open Service Requests*/
+.view-client-service-tickets .views-row {padding: 10px;background-color: #efefef;border: 1px dashed #ccc;margin: 20px 0;}
+.view-client-service-tickets h3 {margin:0;padding:0;}
+
+
+
+
