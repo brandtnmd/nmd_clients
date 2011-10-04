@@ -83,103 +83,6 @@ a.btn-light:hover,
 
 
 
-/******************************
-Primary Navigation - Nice Menu
-******************************/
-
-ul.nice-menu,
-ul.nice-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  padding-top: 1px;
-}
-
-ul.nice-menu a {
-font-family: 'IntervalSansProCondensedLight', Helvetica, Arial, sans-serif;
-	color: #e0e0e0;
-	font-size: 1em;
-	text-transform: uppercase;
-	letter-spacing: .1em;
-	text-decoration: none;
-	-webkit-transition:border-bottom .2s ease-in;  
-   -moz-transition:border-bottom .2s ease-in;  
-   -o-transition:border-bottom .2s ease-in;  
-   transition:border-bottom .2s ease-in;
-   padding: 10px 16px;
-   outline: none;
-   border-left: 1px solid #202020;
-border-right: 1px solid #282828;
-height: 59px;
-line-height: 3.6em;
-}
-
-ul.nice-menu li.first a {border-left: none;}
-
-ul.nice-menu a:hover,
-ul.nice-menu li.over > a {
-color: #f3f3f3;
-outline: none;
-background: #990000 url(../images/grad-red.png) repeat-x top left;
--moz-box-shadow: 0 0 8px #202020;
--webkit-box-shadow: 0 0 8px#202020;
-box-shadow: 0 0 8px #202020;
-}
-
-
-
-
-
-ul.nice-menu li ul a {
-text-transform: none;
-color: #666;
-padding: 10px 15px 10px 15px;
-border: none;
-font-size: 0.9em;
-line-height: normal;
-height: auto;
-}
-
-
-
-ul.nice-menu li ul li a:hover {border:none;background-color: #fff;}
-
-ul.nice-menu li {
-  border-top: 0;
-  float: left; /* LTR */
-
-}
-
-
-/*LEVEL 2*/
-ul.nice-menu li ul li {
-  background-color: #efefef;
-  border-bottom: 1px solid #ccc;
-  zoom: 1;
-        filter: alpha(opacity=80);
-        opacity: 0.8;
-}
-
-ul.nice-menu ul li {
-  width: 15.5em;
-}
-
-ul.nice-menu ul {
-padding: 0;
-margin-top: 0px;
-background: rgb(224, 224, 224); /* The Fallback */
-background: rgba(224, 224, 224, 0.9);
-padding: 8px;
-border-top:4px solid #cc3332;
-
--moz-box-shadow: 0 0 5px #666;
--webkit-box-shadow: 0 0 5px#666;
-box-shadow: 0 0 5px #666;
-}
-
-
-
-ul.nice-menu-down ul li {clear: both;}
 
 
 
@@ -222,52 +125,7 @@ ul.nice-menu-down ul li {clear: both;}
 .sidebar .block-menu-block .content li.expanded ul.menu a:hover {color: #990000;background-color: #efefef;}
 .sidebar .block-menu-block .content li.expanded ul.menu a.active {font-weight: normal;}
 
-/* -----------------------------------------------------------------------------------------
->>> Navigation - Blog Categories<<<
-------------------------------------------------------------------------------------------*/
-#block-views-blog-categories-block ul {margin:0;padding:0;}
-#block-views-blog-categories-block li {list-style-type: none;}
-#block-views-blog-categories-block .field-content a:link,
-#block-views-blog-categories-block .field-content a:visited,
-#block-views-blog-categories-block .field-content a:active {
-	color:#f3f3f3;
-	display:block;
-	background: #020202 url(../images/grad-black.png) repeat-x top left;
-	padding: 10px;
-	border-bottom: 1px solid #333;}
 
-
-#block-views-blog-categories-block .field-content a:hover {
-color: #f3f3f3;background: #900000 url(../images/grad-red.png) repeat-x top left;
-text-shadow:1px 1px 6px #282828;}
-
-
-#block-views-blog-categories-block .field-content a.active
-{background: #900000 url(../images/grad-red.png) repeat-x top left;
-padding: 10px;border-bottom: 1px solid #830202;}
-#block-views-blog-categories-block {padding: 0;} /*Remove global padding from block*/
-
-
-
-
-
-
-/* -----------------------------------------------------------------------------------------
->>> Menu Block - Footer Navigation (mirrors pirmary menu) <<<
-
-------------------------------------------------------------------------------------------*/
-
-#block-menu-block-2 {margin-top: 50px;overflow: hidden;}
-#block-menu-block-2 ul.menu {margin:0;padding:0;width: 940px;}
-#block-menu-block-2 ul.menu li {width: 118px;float: left;margin:0;min-height: 220px;padding: 0 18px;list-style-type: none;border-left: 1px dotted #282828;}
-#block-menu-block-2 ul.menu li a {font-weight: bold; color: #ccc;font-size: 1.0em;display: block;line-height: 1.0em;outline: none;height: 30px;}
-#block-menu-block-2 ul.menu li.menu-mlid-428 {display: none;} /*Hide Contact link in footer to make room*/
-#block-menu-block-2 ul.menu li.first {border: none;}
-#block-menu-block-2 ul.menu li ul {width: auto;}
-#block-menu-block-2 ul.menu li ul li,#block-menu-block-2 ul.menu li ul li.first {min-height: 0;padding:5px 0;margin:0;color: #666;border: none;border-bottom: 1px dotted #282828;}
-#block-menu-block-2 ul.menu li ul li.last {border: none;}
-#block-menu-block-2 ul.menu li ul li a {font-weight: normal;font-size: 0.75em;color: #666;line-height: 1.4em;height: auto;padding-left: 4px;}
-#block-menu-block-2 ul.menu li ul li a:hover {color: #f3f3f3;border-left:2px solid #cc0000;}
 
 
 
@@ -280,114 +138,6 @@ padding: 10px;border-bottom: 1px solid #830202;}
 	margin-bottom: 50px;
 }
 
-#navigation .section {position: absolute;z-index: 500;}
-
-#navigation li ul li a {padding-left: 50px;background: url(../images/sprite-icons.png);background-repeat: no-repeat;
--moz-box-shadow: inset 0 0 5px #e0e0e0;
--webkit-box-shadow: inset 0 0 5px#e0e0e0;
-box-shadow: inner 0 0 5px #e0e0e0;
-
-
-}
-#navigation li.menu-514 a {background-position: 0 -700px;} /*NMD History*/
-#navigation li.menu-606 a {background-position: 0 -50px;} /*Our Team*/
-#navigation li.menu-517 a {background-position: 0 -100px; } /*Testimonials*/
-#navigation li.menu-739 a {background-position: 0 -150px; } /*FAQs*/
-#navigation li.menu-518 a {background-position: 0 -250px; } /*Web Design in Denver CO*/
-#navigation li.menu-519 a {background-position: 0 -300px; } /*Traditional vs UI*/
-#navigation li.menu-597 a {background-position: 0 -350px; } /*Drupal*/
-#navigation li.menu-598 a {background-position: 0 -400px; } /*Custom Apps*/
-#navigation li.menu-599 a {background-position: 0 -450px; } /*Mobile Apps*/
-#navigation li.menu-593 a {background-position: 0 -500px; } /*Search Engine Op*/
-#navigation li.menu-594 a {background-position: 0 -550px; } /*Google Places vs Organic Results*/
-#navigation li.menu-595 a {background-position: 0 -600px; } /*Local Search Rankings*/
-#navigation li.menu-596 a {background-position: 0 -650px; } /*Guaranteed Top 10 Plan*/
-#navigation li.menu-614 a {background-position: 0 -800px; } /*Privacy Notice*/
-#navigation li.menu-434 a {background-position: 0 -750px; } /*Featured Projects*/
-#navigation li.menu-456 a {background-position: 0 -850px; } /*Past Projects*/
-
-#navigation li ul li a:hover{color:#990000;padding-left: 50px;background: #fff url(../images/sprite-icons-hover.png);background-repeat: no-repeat;
--webkit-transition:background .3s ease-in;  
-   -moz-transition:background .3s ease-in;  
-   -o-transition:background .3s ease-in;  
-   transition:background 3s ease-in;
-}
-
-
-#navigation li ul li a.active {cursor: default;color:#990000;background: #fff url(../images/sprite-icons-hover.png);background-repeat: no-repeat;
--moz-box-shadow: inset 0 0 5px #e0e0e0;
--webkit-box-shadow: inset 0 0 5px#e0e0e0;
-box-shadow: inner 0 0 5px #e0e0e0;
-
-}
-#navigation li ul li a.active:after {content: "You're Here";font-size: 0.7em;text-transform: uppercase;color: #999;padding-left: 10px;}
-
-#navigation li.menu-514 a:hover,
- #navigation li.menu-514 a.active
-{background-position: 0 -700px;} /*NMD History*/
-
-#navigation li.menu-606 a:hover,
-#navigation li.menu-606 a.active
-{background-position: 0 -50px;} /*Our Team*/
-
-#navigation li.menu-517 a:hover,
-#navigation li.menu-517 a.active 
-{background-position: 0 -100px; } /*Testimonials*/
-
-#navigation li.menu-739 a:hover,
-#navigation li.menu-739 a.active 
-{background-position: 0 -150px; } /*FAQs*/
-
-#navigation li.menu-518 a:hover,
-#navigation li.menu-518 a.active
-{background-position: 0 -250px; } /*Web Design in Denver CO*/
-
-#navigation li.menu-519 a:hover,
-#navigation li.menu-519 a.active 
-{background-position: 0 -300px; } /*Traditional vs UI*/
-
-#navigation li.menu-597 a:hover, 
-#navigation li.menu-597 a.active 
-{background-position: 0 -350px; } /*Drupal*/
-
-#navigation li.menu-598 a:hover, 
-#navigation li.menu-598 a.active
-{background-position: 0 -400px; } /*Custom Apps*/
-
-#navigation li.menu-599 a:hover,
-#navigation li.menu-599 a.active 
-{background-position: 0 -450px; } /*Mobile Apps*/
-
-#navigation li.menu-593 a:hover,
-#navigation li.menu-593 a.active 
-{background-position: 0 -500px; } /*Search Engine Op*/
-
-#navigation li.menu-594 a:hover,
-#navigation li.menu-594 a.active 
-{background-position: 0 -550px; } /*Google Places vs Organic Results*/
-
-#navigation li.menu-595 a:hover,
-#navigation li.menu-595 a.active
-{background-position: 0 -600px; } /*Local Search Rankings*/
-
-#navigation li.menu-596 a:hover,
-#navigation li.menu-596 a.active 
-{background-position: 0 -650px; } /*Guaranteed Top 10 Plan*/
-
-#navigation li.menu-614 a:hover,
-#navigation li.menu-614 a.active
-{background-position: 0 -800px; } /*Privacy Notice*/
-
-#navigation li.menu-434 a:hover,
-#navigation li.menu-434 a.active
-{background-position: 0 -750px; } /*Featured Projects*/
-
-#navigation li.menu-456 a:hover,
-#navigation li.menu-456 a.active 
-{background-position: 0 -850px; } /*Past Projects*/
-
-
-#navigation li ul li a:hover {background-color: #fff;}
 
 
 
@@ -396,7 +146,7 @@ box-shadow: inner 0 0 5px #e0e0e0;
 
 
 
-.front #navigation {margin-bottom: 0;}
+
 
 
 #navigation .section {width: 960px; margin: 0 auto;height: 80px;position: relative;}

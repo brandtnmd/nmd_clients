@@ -33,28 +33,6 @@ ul.social {list-style: none;margin:0;padding:0;z-index: 200;padding: 5px;positio
 
 @media screen and (max-width: 1024px) {ul.social{display:none;}}
 
-/* -----------------------------------------------------------------------------------------
->>> H1 Keywords<<<
-------------------------------------------------------------------------------------------*/
-.nmdkeywords {
-float: right;
-font-family: Helvetica;
-position:absolute;
-bottom:-50px;
-right:0;
-background-color:#000;
-background: rgb(0, 0, 0); /* The Fallback */
-background: rgba(0, 0, 0, 0.2);
-color:#999;
-padding:5px;
-font-size: 0.7em;
-border: none;
-font-weight: normal;
-/*-webkit-transform: rotate(-90deg); 
--moz-transform: rotate(-90deg);	
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
-background-color: #282828;
-}
 
 
 
@@ -140,26 +118,6 @@ div.messages /* Important messages (status, warning, and error) for the user. Se
 
 
 
-
-
-
-
-/* -----------------------------------------------------------------------------------------
->>> Page - Work Details<<<
-------------------------------------------------------------------------------------------*/
-.node-type-work .field-name-field-work-feat-screen img {border: 9px solid #fff;outline: 1px solid #e0e0e0;}
-
-
-.node-type-work ul.work-bar  {outline: 1px solid #e0e0e0;margin:0 0 20px 0;list-style: none;background-color: #202020;padding: 15px ;overflow: hidden;text-align: right;margin-top: 5px;}
-.node-type-work .work-bar ul li {float:right;}
-.node-type-work .work-bar a.btn-light {padding: 6px 12px;border-radius: 0;}
-.node-type-work em {color: #999;margin-bottom: 5px;display: block;}
-.node-type-work .work-col-left {float: left;width: 305px;margin-right: 20px;min-height: 350px;border-right: 1px solid #e0e0e0;padding-right: 10px;}
-.node-type-work .work-col-right {float: left;width: 330px;min-height: 350px;}
-.node-type-work .work-col-right h2 {margin:0;padding:0;}
-.node-type-work .field-name-field-work-gallery {}
-.node-type-work .field-name-field-work-gallery .field-item {float:left;padding: 0 20px 10px 0;}
-.node-type-work .field-name-field-work-gallery img {border: 2px solid #fff; outline: 1px solid #e0e0e0;}
 
 
 

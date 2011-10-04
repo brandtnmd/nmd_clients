@@ -12,39 +12,30 @@ Created: 2011-05-18
 >>> BACKGROUNDS <<<
 ------------------------------------------------------------------------------------------*/
 body {
-background-color: #000;
+background-color: #e0e0e0;
+color: #333;
 }
 body.not-front,
 body.maintenance-page
-{background: #000 url(../images/bg-rays.png) no-repeat top center;}
+{background: #e0e0e0;}
 body.imce {background-color: #f3f3f3;}
 
 #page-wrapper {}
 
 #page {
-background: rgb(20, 72, 90); /* The Fallback */
-background: rgba(0, 0, 0, 0.3);
--moz-box-shadow: 0 0 5px #306171;
--webkit-box-shadow: 0 0 5px #306171;
-box-shadow: 0 0 5px #306171;
-
-}
-.front #page {background: transparent;
--moz-box-shadow: none;
--webkit-box-shadow: none;
-box-shadow: none;
+background-color: #fff;
 
 }
 
 
-#main {background-color: #e1ddd1;}
-.front #main {background:transparent;/*border: 1px solid #666;*/}
+#main {background-color: #e1ddd1;min-height: 800px;}
+
 
 .region-footer {
 }
 
 #content {background-color: #f3f3f3;}
-.front #content {background: transparent;}
+
 
 
 /* -----------------------------------------------------------------------------------------
@@ -67,7 +58,7 @@ margin:0;padding:0;
 
 }
 
-.front #page-wrapper {margin-top: -310px;}
+
 #page {padding: 10px;}
 
 .logo {
@@ -77,7 +68,7 @@ left:0;
 }
 
 
-.not-front #content {min-height: 1200px;}
+
 
 
 /*
@@ -104,11 +95,7 @@ left:0;
   margin-right: -710px; /* LTR */ /* Negative value of #content's width + left margin. */
 }
 
-.front #content {
-  width: 640px;
-  margin-left: 0; /* LTR */
-  margin-right: -640px; /* LTR */ /* Negative value of #content's width + left margin. */
-}
+
 
 .two-sidebars #content {
   width: 490px;
@@ -119,8 +106,9 @@ left:0;
 #content .section {
   margin: 0;
   padding: 20px;
+  min-height: 800px;
 }
-.front #content .section {padding: 0 40px 0 0;}
+
 
 /*
  * First sidebar
@@ -151,24 +139,14 @@ left:0;
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
 }
 
-.front .region-sidebar-second {
-  float: left; /* LTR */
-  width: 300px;
-  margin-left: 640px; /* LTR */ /* Width of content + sidebar-first. */
-  margin-right: -940px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
-  padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
-}
+
 
 .region-sidebar-second .section {
   margin: 0;
   padding: 0;
 }
 
-.front .region-sidebar-second .section {
-  margin: 0;
-  padding: 0;
-  
-}
+
 
 /*
  * Content Bottom
@@ -216,8 +194,3 @@ left:0;
 
 
 
-
-.front .region-sidebar-second {background-color: #fff;padding: 10px;
-
-background-color: #e0e0e0;
-}

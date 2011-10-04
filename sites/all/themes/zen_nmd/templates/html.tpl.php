@@ -23,12 +23,7 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
-<ul class="social">
-<li><a href="http://www.facebook.com/people/Newmedia-Denver/717014165"><img src="/sites/all/themes/zen_nmd/images/icon-facebook.png" alt="NewMedia Facebook" width="32" height="32" /></a></li>
-<li><a href="http://twitter.com/#!/newmediadenver"><img src="/sites/all/themes/zen_nmd/images/icon-twitter.png" alt="NewMedia Twitter" width="32" height="32" /></a></li>
-<li><a href="http://www.linkedin.com/company/newmedia-denver"><img src="/sites/all/themes/zen_nmd/images/icon-linkedin.png" alt="NewMedia Linkedin" width="32" height="32" /></a></li>
-<li><a href="/newmedia-rss-feeds"><img src="/sites/all/themes/zen_nmd/images/icon-rss.png" alt="NewMedia RSS" width="32" height="32" /></a></li>
-</ul>
+
 
 <div id="credit"><div class="section clearfix">
 <div class="left"><a href="http://www.bbb.org/denver/business-reviews/web-design/new-media-solutions-in-denver-co-46000673"><img src="/sites/all/themes/zen_nmd/images/bbb.png" alt="bbb" width="106" height="41" /></a></div>

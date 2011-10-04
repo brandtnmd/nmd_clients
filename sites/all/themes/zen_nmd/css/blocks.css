@@ -10,6 +10,20 @@ Created: 2011-05-18
 *****************************************************************/
 /*.not-front.page-node-305 #block-block-1 {background-color: #fff;padding-top: 15px;}
 .page-node-305 .sidebar #block-menu-block-1 {margin: 0;}*/
+
+
+/* -----------------------------------------------------------------------------------------
+>>> Client Welcome message <<<
+------------------------------------------------------------------------------------------*/
+#block-views-user-block-1 {
+background-color: #fff;padding: 10px;margin-bottom: 20px;border: 1px solid #e0e0e0;
+}
+
+
+
+
+
+
 /* -----------------------------------------------------------------------------------------
 >>> Twitter <<<
 ------------------------------------------------------------------------------------------*/
@@ -54,43 +68,19 @@ text-transform: uppercase;
 #header #block-block-14 {position: absolute;top:0;right:0;width: 200px;color: #f3f3f3;}
 #header #block-block-14 a {color: #e0e0e0;}
 
-
 /* -----------------------------------------------------------------------------------------
->>> Section Title blocks<<<
+>>> LOGIN <<<
 ------------------------------------------------------------------------------------------*/
+.not-logged-in #page,
+.not-logged-in #main-wrapper,
+.not-logged-in #main,
+.not-logged-in #content .section
+{height: 230px;min-height: 0;}
+.not-logged-in #page {height: 270px;}
 
-#header .block {position: absolute;bottom:0;left:0;width: 900px;height: 36px;background:  url(../images/dot.png) no-repeat bottom left;}
+#block-user-login input {width: 300px;}
 
-#header .section {
-position: relative;
-
-width: 960px;
-margin: 0 auto;
-height: 60px;}
-
-#header .section .block {}
-
-#header .section-title {
-color: #f3f3f3;
-font-family: 'IntervalSansProCondensedBold', Helvetica, Arial, sans-serif;
-font-size: 6em;
-text-transform: uppercase;
-text-shadow:1px 1px 5px #282828;
-line-height: .875em;
-position: absolute;
-bottom:-2px;
-left:15px;
-
-}
-
-#header .section-tagline {
-font-family: 'IntervalSansProCondensedLight', Helvetica, Arial, sans-serif;
-font-size: 1.6em;
-color: #e0e0e0;
-line-height: 1.0em;
-text-shadow:1px 1px 1px #282828;}
-
-
+.not-logged-in #page-wrapper {min-height: 800px;}
 
 /* -----------------------------------------------------------------------------------------
 >>> Featured Frontpage blocks<<<
