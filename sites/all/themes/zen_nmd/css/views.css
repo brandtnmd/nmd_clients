@@ -10,7 +10,7 @@ Created: 2011-05-18
 >>> GLOBAL<<<
 ------------------------------------------------------------------------------------------*/
 .view-content {overflow: hidden;}
-.views-row {position: relative;}
+.views-row {position: relative;margin-bottom: 10px;}
 
 
 /* -----------------------------------------------------------------------------------------
@@ -27,14 +27,10 @@ Created: 2011-05-18
 /* -----------------------------------------------------------------------------------------
 >>> VIEW - CLIENT DASHBOARD <<<
 ------------------------------------------------------------------------------------------*/
-#webform-client-form-215 fieldset {float: left;border: none;}
-#webform-client-form-215 fieldset legend {display: none;}
-#webform-client-form-215 #webform-component-fieldset-contact-information {width:310px;}
-#webform-client-form-215 #webform-component-fieldset-questions {width:300px;}
-#webform-client-form-215 input {width: 260px;}
+
 
 /*Open Service Requests*/
-.view-client-service-tickets .views-row {padding: 10px;background-color: #efefef;border: 1px dashed #ccc;margin: 20px 0;}
+.view-client-service-tickets .views-row {padding: 10px;background-color: #fff;border: 1px dashed #ccc;margin: 20px 0;}
 .view-client-service-tickets h3 {margin:0;padding:0;}
 
 
@@ -42,3 +38,20 @@ Created: 2011-05-18
 >>> VIEW - Deals Block <<<
 ------------------------------------------------------------------------------------------*/
 #block-views-deals-block {margin-bottom: 30px;}
+
+
+.view-profile.view-display-id-page {}
+.view-profile.view-display-id-page .views-field-field-client-since {background-color: #efefef;padding: 5px;margin-bottom: 10px;color: #333;}
+
+/* -----------------------------------------------------------------------------------------
+>>> VIEW - Deals Slideshow <<<
+------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+

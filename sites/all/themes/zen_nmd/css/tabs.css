@@ -65,45 +65,46 @@ color: #f3f3f3;
 .quicktabs_main.quicktabs-style-basic{
   background-color:#fff;
 	border-top:5px solid #990000;
-  padding:10px;
+  padding: 20px ;
   clear:both;
+
 }
-ul.quicktabs_tabs.quicktabs-style-basic{
+ul.quicktabs-tabs.quicktabs-style-basic{
 font-family: 'IntervalSansProCnUltraLt', Helvetica, Arial, sans-serif;
   padding:0 5px 0 0;
   font-weight:bold;
   margin:0;
   font-size: 1.6em;
   border:none;
-  text-transform: uppercase;
+  text-transform: uppercase;  margin-top: 20px;
 }
-ul.quicktabs_tabs.quicktabs-style-basic a{
+ul.quicktabs-tabs.quicktabs-style-basic a{
   text-decoration:none;
   color:#aaa;
    display: block;
    float: left;
   padding: 15px 20px;  background: #020202 url(../images/grad-black.png) repeat-x top left;
 }
-ul.quicktabs_tabs.quicktabs-style-basic a:hover{
+ul.quicktabs-tabs.quicktabs-style-basic a:hover{
     background: #990000 url(../images/grad-red.png) repeat-x top left;
     color:#f3f3f3;
 }
-ul.quicktabs_tabs.quicktabs-style-basic li{
+ul.quicktabs-tabs.quicktabs-style-basic li{
   border-bottom:none;
 white-space: normal;
   margin:0 3px 0 0;
   position:relative;
 
 }
-ul.quicktabs_tabs.quicktabs-style-basic li:hover{
+ul.quicktabs-tabs.quicktabs-style-basic li:hover{
   border-bottom:none;
 
 }
-ul.quicktabs_tabs.quicktabs-style-basic li.active{
+ul.quicktabs-tabs.quicktabs-style-basic li.active{
   background-color:#fff;
 
 }
-ul.quicktabs_tabs.quicktabs-style-basic li.active a{
+ul.quicktabs-tabs.quicktabs-style-basic li.active a{
   color:#f3f3f3;
   background: #990000 url(../images/grad-red.png) repeat-x top left;
 }
