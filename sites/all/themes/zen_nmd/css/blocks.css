@@ -21,7 +21,7 @@ Created: 2011-05-18
 /* -----------------------------------------------------------------------------------------
 >>> Log In Message <<<
 ------------------------------------------------------------------------------------------*/
-#block-block-20 {padding: 10px;color: #333;min-height: 380px;}
+#block-block-20 {padding: 10px;color: #999;min-height: 380px;}
 
 
 
@@ -30,7 +30,8 @@ Created: 2011-05-18
 /* -----------------------------------------------------------------------------------------
 >>> Twitter <<<
 ------------------------------------------------------------------------------------------*/
-#block-block-23 h2 {padding: 0 0 0 30px;margin: 0;}
+
+#block-block-23 h2 {padding: 10px 0 0 30px;margin: 10px 0 0 5px;color: #55cef7;padding: 15px 8px 15px 52px;background: #000 url(../images/icon-twitter-update.png) no-repeat center left;}
 #block-block-23 .btn-red {margin:  0 0 0 30px;}
 
 .tweet {
@@ -42,11 +43,12 @@ font-family: 'IntervalSansProCondensedLight', Helvetica, Arial, sans-serif;
 background: rgba(0, 0, 0, 0.4);*/
 padding:0;margin:0;
 width: 100%;
+
   }
   .tweet a,.tweet .tweet_join {color: #990000;}
 .tweet .tweet_avatar {display: none;}
 ul.tweet_list {margin:0 auto;list-style: none;padding: 0 10px 20px 30px;}
-ul.tweet_list li {/*background: url(../images/icon-twitter-update.png) no-repeat center left;*/padding: 0px 0 18px 0px;}
+ul.tweet_list li {padding: 0px 0 18px 0px;}
 
 .tweet .loading {display: none;}
 
@@ -146,7 +148,7 @@ text-shadow:1px 4px 5px #282828;
 }
 #block-block-1 .section-desc {position: absolute;top:50px;left:360px;color: #e0e0e0;}
 .sidebar .block {margin-bottom: 1.5em;padding: 10px;}
-.front .sidebar .block {margin-bottom: 2.5em;padding: 0px;}
+.front .sidebar .block {margin-bottom: 0;padding: 0px;}
 .sidebar .block-menu-block {padding: 0;}
 
 

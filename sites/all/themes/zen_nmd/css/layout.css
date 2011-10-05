@@ -12,12 +12,12 @@ Created: 2011-05-18
 >>> BACKGROUNDS <<<
 ------------------------------------------------------------------------------------------*/
 body {
-background-color: #e0e0e0;
+background-color: #ccc;
 color: #333;
 }
 body.not-front,
 body.maintenance-page
-{background: #e0e0e0;}
+{background: #ccc;}
 body.imce {background-color: #f3f3f3;}
 
 #page-wrapper {}
